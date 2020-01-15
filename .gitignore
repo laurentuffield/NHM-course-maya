@@ -1,6 +1,11 @@
+# Faff
+faff.R
 # History files
 .Rhistory
 .Rapp.history
+
+#html files
+*html
 
 # Session Data files
 .RData
