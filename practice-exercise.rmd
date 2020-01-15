@@ -1,0 +1,26 @@
+---
+title: "Practice Excercise"
+author: "Maya Sollen-Norrlin"
+date: "15/01/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+First, read in and explore the data:
+
+```{r}
+
+comp <- read.csv("compensation.csv")
+str(comp)
+```
+
+
+
+
+
+
+
