@@ -5,6 +5,8 @@
 
 mydata <- read.csv(heelo.csv)
 
+#raisins are cool
+#arcmap sucks
 
 ## This is amazing
 
