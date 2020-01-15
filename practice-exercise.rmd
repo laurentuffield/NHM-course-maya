@@ -21,11 +21,32 @@ str(comp)
 Now make a boxplot of Fruit mass in grazed and ungrazed 
 
 ```{r}
+library(tidyverse)
 
 ggplot(data = comp, aes(x = Grazing, y = Fruit)) +
   geom_boxplot()
 
 ```
+
+
+Then add some nice colours
+
+```{r}
+
+ggplot(comp, aes(Grazing, Fruit, fill = Grazing)) +
+  geom_boxplot() +
+  scale_colour_manual(values = c("plum", "sienna1"))+
+  theme(legend.position = "none") + ylim(0,120)
+  
+
+```
+
+
+
+
+
+
+
 
 
 
