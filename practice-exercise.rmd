@@ -18,8 +18,14 @@ comp <- read.csv("compensation.csv")
 str(comp)
 ```
 
+Now make a boxplot of Fruit mass in grazed and ungrazed 
 
+```{r}
 
+ggplot(data = comp, aes(x = Grazing, y = Fruit, colours = Grazing)) +
+  geom_boxplot()
+
+```
 
 
 
