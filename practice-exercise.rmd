@@ -22,7 +22,7 @@ Now make a boxplot of Fruit mass in grazed and ungrazed
 
 ```{r}
 
-ggplot(data = comp, aes(x = Grazing, y = Fruit, colours = Grazing)) +
+ggplot(data = comp, aes(x = Grazing, y = Fruit)) +
   geom_boxplot()
 
 ```
